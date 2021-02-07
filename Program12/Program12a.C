@@ -24,7 +24,7 @@ int main() {
     fclose(f1);
     fclose(f2);
     fclose(f3);
-    printf("PASS 1 is successful");
+    printf("PASS 1  is successful");
 
     getch();
     return 0;
