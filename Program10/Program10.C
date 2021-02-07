@@ -80,7 +80,7 @@ void passOne(char label[10], char opcode[10], char operand[10], char code[10], c
     length = locctr - start;
     fprintf(fp5, "%d", length);
     fclose(fp5);
-    printf("\nThe length of the code : %d\n", length);
+    printf("\nThe length of the  code : %d\n", length);
 }
 
 void display() {
