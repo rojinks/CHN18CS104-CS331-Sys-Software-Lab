@@ -23,7 +23,7 @@ int main()
     else
     {
       printf("Block already allocated.\n");
-      break;
+      break; 
     }
   }
 
