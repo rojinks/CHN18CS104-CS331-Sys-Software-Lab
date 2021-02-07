@@ -23,7 +23,7 @@ int main()
     avail[i]=instanc;
   }
 
-  printf("Enter Maximum No. of instances of resources that a Process need:\n");
+  printf("Enter Maximum No. of instances of resources that a Process need: \n");
 
   for(i=0;i<process;i++)
   {
