@@ -35,7 +35,7 @@ void scan(int Ar[20], int n, int start) {
     for(i=pos;i<n-1;i++) {
         diff = abs(Ar[i+1] - Ar[i]);
         seekTime += diff;
-        printf("Move from %d to %d with seek time %d\n", Ar[i], Ar[i+1], diff);
+        printf("Move from %d to %d with seek time  %d\n", Ar[i], Ar[i+1], diff);
     }
     current=i;
     for(i=pos-1;i>=0;i--) {
