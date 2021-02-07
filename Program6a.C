@@ -21,6 +21,6 @@ int main() {
     printf("\nTotal Seek Time: %d", seekTime);
     printf("\nAverage Seek Time = %f",(float) seekTime/n);
     printf("\n");
-    printf("\nPress any key to continue. . .\n");
+    printf("\nPress any key to continue. . . .\n");
     return 0;
 }
