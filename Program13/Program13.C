@@ -30,7 +30,7 @@ int main()
             case 1:
                 do
                 {
-                    printf("\nEnter the address: ");
+                    printf("\nEnter  the address: ");
                     scanf("%d",&num);
                     key=create(num);
                     printf("Enter The label: ");
