@@ -64,7 +64,7 @@ int main() {
 	 create(root, num);
 	 for (i = 0; i < c; i++) {
 	 	printf("\nEnter no. of child nodes of %s: ", A[i] -> name);
-		scanf("%d", & num);
+		scanf("%d", & num); 
 	 	create(A[i], num);
 	 }
 	 printf("\nHierarchical Directory Structure\n");
