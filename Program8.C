@@ -32,7 +32,7 @@ void * philosopher(void * num)
 	int phil=*(int *)num;
 
 	sem_wait(&room);
-	printf("\nPhilosopher %d has entered room",phil);
+	printf("\nPhilosopher %d  has entered room",phil);
 	sem_wait(&chopstick[phil]);
 	sem_wait(&chopstick[(phil+1)%5]);
 
