@@ -69,7 +69,7 @@ int main()
         ch = fgetc(fp1);
     }
     printf("\n\nLength of the input program is %d.", length);
-    printf("\n\nThe contents of Symbol Table:\n\n");
+    printf("\n\nThe contents  of Symbol Table:\n\n");
     fp2 = fopen("symtab.txt", "r");
     ch = fgetc(fp2);
     while (ch != EOF)
