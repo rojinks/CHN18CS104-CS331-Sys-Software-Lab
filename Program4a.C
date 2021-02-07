@@ -28,7 +28,7 @@ int main() {
 				 printf("\nEnter the name of the file: ");
 				 scanf("%s", files);
 				 for (i = 0; i < dir.fcnt; i++) {
-				 	if (strcmp(files, dir.fname[i]) == 0) {
+				 	if (strcmp(files, dir.fname[i]) == 0) { 
 				 		printf("File %s is deleted\n", files);
 				 		strcpy(dir.fname[i], dir.fname[dir.fcnt - 1]);
 				 		break;
