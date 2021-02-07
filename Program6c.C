@@ -31,7 +31,7 @@ void cscan(int Ar[20], int n, int start) {
             break;
         }
     }
-    printf("\nMovement of Cylinders\n");
+    printf("\nMovement of Cylinders \n");
     for(i=pos;i<n-1;i++) {
         diff = abs(Ar[i+1] - Ar[i]);
         seekTime+= diff;
