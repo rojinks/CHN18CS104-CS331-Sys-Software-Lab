@@ -29,7 +29,7 @@ int main()
             if ((mutex == 1) && (full != 0))
                 consumer();
             else
-                printf("Buffer is empty!!\n");
+                printf("Buffer is empty!\n");
             break;
         case 3:
             exit(0);
