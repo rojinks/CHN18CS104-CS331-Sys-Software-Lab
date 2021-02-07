@@ -30,7 +30,7 @@ int main()
     if(files[ind[i]]==1)
     {
       printf("Block already allocated.\n");
-      goto X;
+      goto X; 
     }
 
   for(j = 0;  j < num;  j++)
