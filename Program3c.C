@@ -26,7 +26,7 @@ int main()
   {
     if(files[j] == 0)
     {
-      files[j] = 1;
+      files[j] = 1; 
       printf("%d -> %d\n", j, files[j]);
     }
     else
