@@ -31,7 +31,7 @@ int main() {
 				 	printf("Enter name of the file: ");
 				 	scanf("%s", dir[i].fname[dir[i].fcnt]);
 				 	dir[i].fcnt++;
-				 	printf("File created");
+				 	printf("File created"); 
 				 	break;
 				 }
 				 if (i == dcnt)
