@@ -23,7 +23,7 @@ void main()
  do
  {
   printf("\nSymbol Table Implementation\n");
-  printf("\n\t1.Inset\n\t2.Display\n\t3.Search\n\t4.Modify\n\t5.End\n");
+  printf("\n\t1.Inset\n\t2.Display\n\t3. Search\n\t4.Modify\n\t5.End\n");
   printf("\n\tEnter your option : ");
   scanf("%d",&op);
   switch(op)
